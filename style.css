@@ -1,0 +1,157 @@
+body{
+    background-color: #f8f9fa;
+}
+
+.divhero{
+    background-color:
+    #0a66c2;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+h1{
+    padding-top: 25vh;
+    font-size: 5rem;
+    font-family: "pacifico";
+}
+
+div[class="resume"]{
+    height: 100vh;
+    background-color: aqua;
+}
+
+h2{
+    font-size: 36px;
+    font-family: "";
+    color: #0a66c2;
+}
+
+img[class="hero"]{
+    height: 40vh;
+}
+
+div[class="about"]{
+    background-color:#f8f9fa ;
+}
+
+.self{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+
+.about h2{
+    font-size: 40px;
+}
+
+.about p{
+    font-size: 24px;
+}
+
+hr {
+    border: dotted  4px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    margin-bottom: 50px;
+
+}
+
+@media(min-width:768px){
+    .container{
+        max-width: 1000px;
+    }
+
+    .interests{
+        padding-left: 0px;
+    }
+
+    .large-screen{
+        display: block;
+    }
+}
+
+
+
+.projects{
+    background-color: #f8f9fa;
+}
+
+hr[class="projects"]{
+   
+   margin: 0% auto;
+   width: min-;
+}
+
+img[alt="tindog"]{
+    height: 200px;
+    border-radius: 2%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+img[alt="portfolio"]{
+    height: 200px;
+    border-radius: 2%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+img[alt="Mondrian"]{
+    height: 200px;
+    border-radius: 2%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:#212529;
+}
+
+a:hover{
+    color: #0a66c2;
+}
+
+img:hover{
+    border-color:#212529;
+}
+
+img[alt="guitar"]{
+    border-radius: 50%;
+    height: 100px;
+}
+
+.guitar{
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+img[alt="design"]{
+    border-radius: 50%;
+    height: 100px;
+    width: 137px;
+}
+
+@media(min-width:768px){
+    .large-screen{
+        display: flex;
+    }
+}
+
+a[class="btn"]{
+    background-color: #0a66c2;
+    border-radiu;
+}
+
+.footer{
+    background-color: #0a66c2;
+    
+}
+

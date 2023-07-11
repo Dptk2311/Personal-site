@@ -3,7 +3,7 @@ body{
 }
 
 .divhero{
-    background-color:#0a66c2;
+    background-color:#0d6efd;
     min-height: 100vh;
     margin: 0px;
 }
@@ -102,7 +102,7 @@ hr[class="projects"]{
 }
 
 img[alt="tindog"]{
-    height: 200px;
+    height: 150px;
     border-radius: 2%;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -110,15 +110,15 @@ img[alt="tindog"]{
 }
 
 img[alt="portfolio"]{
-    height: 200px;
+    height: 150px;
     border-radius: 2%;
     margin-top: 50px;
     margin-bottom: 10px;
-    max-width: 100%;
+    max-width: 100px;
 }
 
 img[alt="Mondrian"]{
-    height: 200px;
+    height: 150px;
     border-radius: 2%;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -162,10 +162,7 @@ img[alt="design"]{
     }
 }
 
-a[class="btn"]{
-    background-color: #0a66c2;
-    border-radiu;
-}
+
 .interests{
     display: flex;
     gap: 50px;
@@ -176,11 +173,11 @@ p{
 
 p[class="interests"]{
     text-align: left;
-    
+
 }
 
 .footer{
-    background-color: #0a66c2;
+    background-color:  #0d6efd;
 }
 @media(max-width:600px){
     .interests{
@@ -197,4 +194,7 @@ p[class="interests"]{
         text-align: center;
     }
 }
-
+p[class="contact"]{
+    color: antiquewhite;
+    margin: 0%;
+}
